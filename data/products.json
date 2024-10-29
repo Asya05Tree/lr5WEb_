@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": {
+        "uk": "Royal Canin Adult",
+        "en": "Royal Canin Adult"
+      },
+      "price": 899,
+      "brand": "Royal Canin",
+      "category": "food",
+      "description": {
+        "uk": "Преміальний сухий корм для дорослих тварин",
+        "en": "Premium dry food for adult pets"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "uk": "Іграшка м'яч",
+        "en": "Ball toy"
+      },
+      "price": 199,
+      "brand": "Petland",
+      "category": "toys",
+      "description": {
+        "uk": "М'який гумовий м'яч для гри",
+        "en": "Soft rubber ball for play"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "uk": "Шампунь для тварин",
+        "en": "Pet Shampoo"
+      },
+      "price": 299,
+      "brand": "PetCare",
+      "category": "hygiene",
+      "description": {
+        "uk": "Делікатний шампунь для чутливої шкіри",
+        "en": "Gentle shampoo for sensitive skin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "categories": [
+    {
+      "id": "food",
+      "name": {
+        "uk": "Корм",
+        "en": "Food"
+      }
+    },
+    {
+      "id": "toys",
+      "name": {
+        "uk": "Іграшки",
+        "en": "Toys"
+      }
+    },
+    {
+      "id": "hygiene",
+      "name": {
+        "uk": "Гігієна",
+        "en": "Hygiene"
+      }
+    }
+  ]
+}

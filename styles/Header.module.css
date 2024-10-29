@@ -1,0 +1,43 @@
+/*Header.module.css*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--accent-color);
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%); 
+    margin-right: calc(-50vw + 50%); 
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}

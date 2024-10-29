@@ -1,0 +1,52 @@
+/*App.css*/
+:root {
+  --bg-light: #fef1ec; 
+  --bg-dark: #2f2f2f;  
+  --text-light: #323232;
+  --text-dark: #f0f0f0;
+  --accent-light: #f8d4b5; 
+  --accent-dark: #4a4a4a;
+  --neon-light: #f8deca; 
+  --neon-dark: #00efefe5;
+  --a-light:#ddbb9d;
+  --a-dark:#00efefe5;
+  --a-hover-light:rgb(169, 137, 110);
+  --a-hover-dark:#0dd3d3e5;
+  padding: 0 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0 20px;
+  font-family: 'Arial', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.light-theme {
+  --bg-color: var(--bg-light);
+  --text-color: var(--text-light);
+  --accent-color: var(--accent-light);
+  --neon-color: var(--neon-light);
+  --a-color: var(--a-light);
+  --a-hover: var(--a-hover-light);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark-theme {
+  --bg-color: var(--bg-dark);
+  --text-color: var(--text-dark);
+  --accent-color: var(--accent-dark);
+  --neon-color: var(--neon-dark);
+  --a-color: var(--a-dark);
+  --a-hover: var(--a-hover-dark);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

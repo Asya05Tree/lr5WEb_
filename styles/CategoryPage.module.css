@@ -1,0 +1,41 @@
+/*CategoryPage.module.css*/
+.product-list-container {
+    padding: 2rem;
+}
+
+.product-list-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.product-item {
+    border: 2px solid var(--neon-color);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px var(--neon-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: var(--bg-color);
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item h3 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.product-item p {
+    color: var(--text-color);
+    margin: 0.25rem 0;
+}

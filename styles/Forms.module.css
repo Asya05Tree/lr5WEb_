@@ -1,0 +1,24 @@
+/*Forms.module.css*/
+.button {
+    background-color: transparent;
+    border: 2px solid var(--neon-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.input {
+    background-color: transparent;
+    border: 2px solid var(--neon-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover,
+.input:focus {
+    box-shadow: 0 0 10px var(--neon-color);
+}

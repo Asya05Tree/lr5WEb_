@@ -1,0 +1,44 @@
+/* DebugWindow.module.css*/
+.debugContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--bg-color);
+  border: 2px solid var(--neon-color);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px var(--neon-color);
+  z-index: 1000;
+}
+
+.historyList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.historyItem {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.historyItem:last-child {
+  border-bottom: none;
+}
+
+.clearButton {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.clearButton:hover {
+  opacity: 0.8;
+}
